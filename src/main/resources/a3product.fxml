@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="599.0" prefWidth="979.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ProductsController">
+   <children>
+      <Label layoutX="386.0" layoutY="41.0" text="Product operations:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TableView fx:id="productsTable" layoutX="251.0" layoutY="138.0" prefHeight="338.0" prefWidth="447.0">
+         <columns>
+            <TableColumn fx:id="idCol" prefWidth="82.0" text="ID" />
+            <TableColumn fx:id="nameCol" prefWidth="117.0" text="Name" />
+            <TableColumn fx:id="priceCol" prefWidth="117.0" text="Price" />
+            <TableColumn fx:id="stockCol" prefWidth="130.0" text="Stock" />
+         </columns>
+      </TableView>
+      <Button fx:id="viewProductsBtn" layoutX="85.0" layoutY="138.0" mnemonicParsing="false" onAction="#viewProducts" prefHeight="31.0" prefWidth="125.0" text="View Products" />
+      <Button fx:id="insertProductBtn" layoutX="85.0" layoutY="236.0" mnemonicParsing="false" onAction="#insertProduct" prefHeight="31.0" prefWidth="125.0" text="Insert Product" />
+      <Button fx:id="deleteProductBtn" layoutX="85.0" layoutY="338.0" mnemonicParsing="false" onAction="#deleteProduct" prefHeight="31.0" prefWidth="125.0" text="Delete Product" />
+      <Button fx:id="updateProductBtn" layoutX="85.0" layoutY="445.0" mnemonicParsing="false" onAction="#updateProduct" prefHeight="31.0" prefWidth="125.0" text="Update Product" />
+      <TextField fx:id="idField" layoutX="721.0" layoutY="138.0" promptText="ID" />
+      <TextField fx:id="nameField" layoutX="721.0" layoutY="236.0" promptText="Name" />
+      <TextField fx:id="priceField" layoutX="721.0" layoutY="338.0" promptText="Price" />
+      <TextField fx:id="stockField" layoutX="721.0" layoutY="445.0" promptText="Stock" />
+      <Button fx:id="backBtn" layoutX="25.0" layoutY="43.0" mnemonicParsing="false" onAction="#changeSceneOnButtonAction" text="Back" />
+   </children>
+</AnchorPane>

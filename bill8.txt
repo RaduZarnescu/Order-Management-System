@@ -1,0 +1,8 @@
+Bill for order 8:
+
+Name: Alex Popescu
+Email: alex.popescu@gmail.com
+Address: Sibiu
+
+iPhone x 1
+Total: 5000

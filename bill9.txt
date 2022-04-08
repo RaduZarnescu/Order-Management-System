@@ -1,0 +1,8 @@
+Bill for order 9:
+
+Name: Radu Zarnescu 
+Email: radu.zarnescu@gmail.com
+Address: Sibiu
+
+Beer x 6
+Total: 30
