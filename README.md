@@ -1,2 +1,1 @@
-# pt2021_30423_zarnescu_radu_assignment_3
 
